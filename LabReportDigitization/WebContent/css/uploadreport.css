@@ -1,0 +1,32 @@
+.user-report-upload {
+	width: 50%;
+ 	margin: 0 auto;
+ 	padding-top: 40px;
+}
+
+.user-report-upload h3{
+	width: 50%;
+ 	margin: 0 auto;
+}
+.report-process-success {
+	display: none;
+}
+
+.report-process-fail {
+	display: none;
+}
+
+/* Set a style for all buttons */
+.user-report-upload button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.user-report-upload button:hover {
+  opacity: 0.8;
+}

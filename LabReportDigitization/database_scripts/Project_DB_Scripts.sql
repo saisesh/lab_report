@@ -1,0 +1,10 @@
+# create database lab_report_digitization;
+# show databases;
+# drop database lab_report_digitization;
+# use lab_report_digitization;
+# CREATE TABLE customer_login (uname VARCHAR(20) NOT NULL, password VARCHAR(20) NOT NULL, token VARCHAR(100), CONSTRAINT PK_CUSTOMER_LOGIN PRIMARY KEY (uname));
+# DROP TABLE customer_login;
+# INSERT INTO customer_login (uname,password, token) VALUES ('sai','sai','');
+# INSERT INTO customer_login (uname,password, token) VALUES ('praveen','praveen','');
+# SELECT * FROM customer_login;
+# SELECT * FROM customer_login WHERE uname='sai';

@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+.profile-details-section {
+	width: 60%;
+	margin: 0 auto; 
+}
+table {
+  border-collapse: collapse;
+  font-family: Arial;
+  font-size: 11pt;
+  width:100%;
+  margin:0%;
+}
+
+th {
+  text-align: center;
+  padding: 7px;
+}
+td{
+ text-align: left;
+ padding: 7px;
+ width: 9.375em;
+}
+
+.first{
+ background-color: #4472C4;
+ color:white;
+}
+.second{
+background-color:#D9E1F4;
+}

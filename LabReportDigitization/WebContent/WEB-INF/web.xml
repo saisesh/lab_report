@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>LabReportDigitization</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>customerlogin</servlet-name>
+		<servlet-class>com.lab.report.digitization.CustomerLogin</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>customerlogin</servlet-name>
+		<url-pattern>/customerlogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>registeruser</servlet-name>
+		<servlet-class>com.lab.report.digitization.RegisterUser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registeruser</servlet-name>
+		<url-pattern>/registeruser</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>profile</servlet-name>
+		<servlet-class>com.lab.report.digitization.ProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>profile</servlet-name>
+		<url-pattern>/profile</url-pattern>
+	</servlet-mapping>
+
+</web-app>
